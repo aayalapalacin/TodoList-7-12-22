@@ -1,4 +1,61 @@
 
+.container{
+    width: 45%;
+}
+
+.Title{
+    font-size: 80px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 20px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.itemsLeftDiv{
+    padding: 0px 0px 5px 12px;
+}
+ 
+.item{
+    padding-left: 33px;
+    font-size: 19px;
+    width: 100%;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mouseOver:hover{
+    cursor: pointer;
+}
+
+.item.itemsLeft{
+    padding-left: 8px;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.inputField{
+width: 100%;
+}
+
+ul{
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.itemLeftDiv{
+    display: flex;
+
+}
 /* 
 
     You can write your own styles here...
